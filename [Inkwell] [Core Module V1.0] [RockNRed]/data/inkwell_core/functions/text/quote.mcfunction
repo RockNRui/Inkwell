@@ -1,2 +1,0 @@
-#Quote
-tellraw @s ["",{"text":"What's a good ","italic":true,"color":"#CCCDFF","clickEvent":{"action":"run_command","value":""}},{"text":"cartographer","italic":true,"color":"#CCCDFF","clickEvent":{"action":"run_command","value":"/function inkwell_core:mechanic/easter_egg_page_flip"}},{"text":" without their inkwell?","italic":true,"color":"#CCCDFF","clickEvent":{"action":"run_command","value":""}}]

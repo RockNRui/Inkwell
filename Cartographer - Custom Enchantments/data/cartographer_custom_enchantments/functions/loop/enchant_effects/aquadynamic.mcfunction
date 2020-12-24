@@ -1,1 +1,0 @@
-execute if entity @s[scores={aquadynamic=1}] run effect give @s conduit_power 1 1 true

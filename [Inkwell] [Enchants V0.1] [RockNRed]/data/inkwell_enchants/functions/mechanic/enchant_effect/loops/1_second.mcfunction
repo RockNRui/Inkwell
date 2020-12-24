@@ -1,1 +1,0 @@
-function inkwell_enchants:mechanic/enchant_effect/chromatic/chroma

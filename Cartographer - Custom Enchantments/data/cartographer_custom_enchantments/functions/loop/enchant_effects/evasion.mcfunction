@@ -1,1 +1,0 @@
-effect give @s[tag=evading] resistance 1 4 true

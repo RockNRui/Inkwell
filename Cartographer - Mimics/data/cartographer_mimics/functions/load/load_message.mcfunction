@@ -1,1 +1,0 @@
-tellraw @a {"text":" - Mimics (v1.0)","color":"aqua","bold":false,"italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"Adds an alternative to anvils, the Repair Station, that consumes xp and lapis to fully restore item durability."}]}}
