@@ -1,0 +1,4 @@
+scoreboard players remove $PlayerHealth InkW_Temp 2
+
+#Debug message
+tellraw @a[tag=Inkwell_Debug] ["",{"text":"⁅","bold":true,"color":"#FCB51D"},{"text":"Inkwell ","bold":true,"color":"#CCCDFF"},{"text":"✒","color":"#CCCDFF"},{"text":"⁆ ","bold":true,"color":"#FCB51D"},{"text":"Debug/","color":"#FF352E"},{"text":"Inkwell Core","color":"#9C6D93"},{"text":"/","color":"#FF352E"},{"text":"⁅","bold":true,"color":"#FCB51D"},{"selector":"@s","bold":true,"color":"#CCCDFF"},{"text":"⁆","bold":true,"color":"#FCB51D"},{"text":":","color":"#FF352E"},{"text":" Health after removing default test amount returned ","color":"#CCCDFF"},{"score":{"name":"$PlayerHealth","objective":"InkW_Temp"},"bold":true,"color":"#CCCDFF"},{"text":".","color":"#CCCDFF"}]
