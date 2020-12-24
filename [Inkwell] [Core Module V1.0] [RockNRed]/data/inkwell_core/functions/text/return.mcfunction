@@ -1,0 +1,2 @@
+#Return button
+tellraw @s ["",{"text":"> Return ","color":"#CCCDFF"},{"text":"⁅","bold":true,"color":"#FCB51D"},{"text":"↵","color":"#5166D2","clickEvent":{"action":"run_command","value":"/function inkwell_core:mechanic/home_message"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to return.","color":"#CCCDFF"}}},{"text":"⁆ ","bold":true,"color":"#FCB51D"}]

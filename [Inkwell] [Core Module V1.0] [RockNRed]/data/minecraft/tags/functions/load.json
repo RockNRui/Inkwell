@@ -1,0 +1,10 @@
+{
+	"values": [
+		"inkwell_core:clocks/1_tick",
+	    "inkwell_core:clocks/5_ticks",
+		"inkwell_core:clocks/1_second",
+		"inkwell_core:clocks/2_seconds",
+		"inkwell_core:clocks/5_seconds",
+		"inkwell_core:system/load"
+	]
+}
