@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Rend                     ",
+            "color": "white"
+        },
+        "description": {
+            "color": "white",
+            "text": "Normal arrows from this weapon inflict Bleeding for 5 seconds. If the target is already Bleeding, the duration is increased by 1 second, and the potency is increased."
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Rend:1}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/rend"
+      },
+    "parent": "cartographer_custom_enchantments:pin_down"
+}

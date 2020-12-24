@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Frost                    ",
+            "color": "white"
+        },
+        "description": {
+            "text": "Normal arrows from this weapon inflict Slowness 2 for 5 seconds.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Frost:1}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/frost"
+      },
+    "parent": "cartographer_custom_enchantments:conductive"
+}

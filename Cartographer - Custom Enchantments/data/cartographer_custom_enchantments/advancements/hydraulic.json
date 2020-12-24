@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Hydraulic:1}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Hydraulic                ",
+            "color": "white"
+        },
+        "description": {
+            "text": "When your trident is thrown, instead create a watery blast which deals 6 damage, and knocks enemies back.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/hydraulic"
+      },
+    "parent": "cartographer_custom_enchantments:current"
+}

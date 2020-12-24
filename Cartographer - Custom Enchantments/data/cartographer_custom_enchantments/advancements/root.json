@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "color": "yellow",
+            "text": "Arcane Notes"
+        },
+        "description": {
+            "color": "white",
+            "text": "Whenever you find a mysterious enchantment, this book fills out, automatically adding its description to this index."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}

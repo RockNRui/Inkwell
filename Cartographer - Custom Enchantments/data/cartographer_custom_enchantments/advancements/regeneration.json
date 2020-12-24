@@ -1,0 +1,62 @@
+{
+    "criteria": {
+        "find1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Regeneration:1}"
+                    }
+                ]
+            }
+        },
+        "find2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Regeneration:2}"
+                    }
+                ]
+            }
+        },
+        "find3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Regeneration:3}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Regeneration             ",
+            "color": "white"
+        },
+        "description": {
+            "text": "The holder/wearer passively regenerates health. The rate is faster the more levels the user wears/holds. (Health is regenerated at 1 health per 3 seconds at level 1. Health is regenerated 0.4 seconds faster per additional level, capping at 1 health per second).",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:ghast_tear"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "requirements": [
+        [
+            "find1",
+            "find2",
+            "find3"
+        ]
+    ],
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/regeneration"
+      },
+    "parent": "cartographer_custom_enchantments:cleansing"
+}

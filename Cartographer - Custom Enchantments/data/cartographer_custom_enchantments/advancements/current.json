@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Current:1}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Current                  ",
+            "color": "white"
+        },
+        "description": {
+            "text": "When thrown, this trident will drag the hit mob to its current location, until it is retrieved, or returns to you. When it returns to you, its attack speed recharges faster.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/current"
+      },
+    "parent": "cartographer_custom_enchantments:ranged_tree"
+}
