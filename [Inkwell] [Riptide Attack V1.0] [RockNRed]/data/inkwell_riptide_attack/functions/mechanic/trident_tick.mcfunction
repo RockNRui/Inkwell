@@ -5,7 +5,7 @@ tellraw @a[tag=Inkwell_Debug_Full] ["",{"text":"⁅","bold":true,"color":"#FCB51
 ##Dash mechanics
 #If the player has a used score aswell as is holding the weapon, nulify use
 execute as @a at @s if entity @s[tag=Inkwell_RiptideAttack,scores={InkW_Riptide_Use=1..},nbt={SelectedItem:{tag:{Inkwell_RiptideAttack:1}}}] run scoreboard players set @s InkW_Riptide_Use 0
-#When use is detected, run dahs function
+#When use is detected, run dash function
 execute as @a at @s if entity @s[tag=Inkwell_RiptideAttack,scores={InkW_Riptide_Use=1..},nbt={Inventory:[{Slot:-106b,tag:{Inkwell_RiptideAttack:1}}]}] run function inkwell_riptide_attack:mechanic/dash
 
 #Tick down invul timer
