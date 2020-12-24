@@ -1,0 +1,1 @@
+scoreboard players set @a InkW_Ench_Chroma 0
