@@ -81,7 +81,7 @@ team modify InkW_PlayerDmg seeFriendlyInvisibles false
 
 ####Build
 ###Bocks :)
-#Replace lower, temp
+#Replace lower, temp 2
 fill 3151423 57 3151423 3151408 0 3151408 air
 #Lowest floor
 fill 3151423 0 3151423 3151408 0 3151408 minecraft:bedrock
