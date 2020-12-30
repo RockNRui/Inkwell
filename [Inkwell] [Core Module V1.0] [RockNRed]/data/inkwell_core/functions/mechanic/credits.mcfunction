@@ -13,7 +13,7 @@ scoreboard players set $InkW_HeaderLine InkW_Temp 18
 function inkwell_core:text/header
 
 #Credit - Red
-tellraw @s ["",{"text":"⁅","bold":true,"color":"#FCB51D"},{"text":"RockNRed","color":"#F53232","hoverEvent":{"action":"show_text","contents":["",{"text":"Module Contributions:","color":"#CCCDFF"},{"text":"\n"},{"text":"> All officially released modules","color":"#CCCDFF"}]}},{"text":"⁆ ","bold":true,"color":"#FCB51D"},{"text":"Creator","color":"#CCCDFF"}]
+tellraw @s ["",{"text":"⁅","bold":true,"color":"#FCB51D"},{"text":"RockNRed","color":"#F53232","hoverEvent":{"action":"show_text","contents":["",{"text":"Module Contributions:","color":"#CCCDFF"},{"text":"\n"},{"text":"> All officially released modules","color":"#CCCDFF"}]}},{"text":"⁆ ","bold":true,"color":"#FCB51D"},{"text":"Designer and Creator","color":"#CCCDFF"}]
 
 #Credit - Pear
 tellraw @s ["",{"text":"⁅","bold":true,"color":"#FCB51D"},{"text":"PearUhDox","color":"#A350F9","hoverEvent":{"action":"show_text","contents":["",{"text":"Module Contributions:","color":"#CCCDFF"},{"text":"\n"},{"text":"> Inkwell Core","color":"#CCCDFF"},{"text":"\n"},{"text":"> Riptide Attack","color":"#CCCDFF"},{"text":"\n"},{"text":"> Guns","color":"#CCCDFF"}]}},{"text":"⁆ ","bold":true,"color":"#FCB51D"},{"text":"Inspiration, command assistance, tag files, and design ideas","color":"#CCCDFF"}]
