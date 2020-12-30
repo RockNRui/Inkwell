@@ -1,5 +1,8 @@
 ##Ran when datapack is loaded
 
+#First load fix
+scoreboard players add $Inkwell_Core_ShorthandReload InkW_Temp 0
+
 execute if score $Inkwell_Core_ShorthandReload InkW_Temp matches 0 as @a at @s run function inkwell_core:mechanic/load_message
 execute if score $Inkwell_Core_ShorthandReload InkW_Temp matches 1 as @a at @s run function inkwell_core:mechanic/load_message_shorthand
 
