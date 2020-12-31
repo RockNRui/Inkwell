@@ -96,5 +96,10 @@ setblock 3151408 1 3151408 minecraft:redstone_block
 #Magic blocks
 setblock 3151415 3 3151409 minecraft:diamond_block
 setblock 3151416 3 3151409 minecraft:iron_block
+#Working shulker
+setblock 3151409 16 3151422 minecraft:light_gray_shulker_box[facing=up]
+setblock 3151409 17 3151422 minecraft:spruce_wall_sign[facing=north,waterlogged=false]{Color:"black",Text4:'{"text":"Working Shulker"}',Text3:'{"text":""}',Text2:'{"text":"Core"}',Text1:'{"text":"Module:"}'}
+setblock 3151409 15 3151422 minecraft:bedrock
+setblock 3151409 15 3151421 minecraft:spruce_wall_sign[facing=north,waterlogged=false]{Color:"black",Text4:'{"text":"real time!"}',Text3:'{"text":"agony, in"}',Text2:'{"text":"scream in"}',Text1:'{"text":"Watch data"}'}
 #Clean up entities
 kill @e[x=3151408,y=0,z=3151408,dx=16,dy=255,dz=255,type=!player,tag=!Inkwell_FC_Entity]

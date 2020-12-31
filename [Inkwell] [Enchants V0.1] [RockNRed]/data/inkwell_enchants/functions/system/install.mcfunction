@@ -22,4 +22,4 @@ team modify Inkwell_ChromaC friendlyFire true
 #Module block
 setblock 3151412 15 3151409 minecraft:iron_block
 #Module sign
-setblock 3151412 17 3151409 birch_wall_sign[facing=south]{Text1:'{"text":"Module:"}',Text2:'{"text":"Enchants"}',Text4:'{"text":"V0.1"}'} replace
+setblock 3151412 17 3151409 spruce_wall_sign[facing=south]{Text1:'{"text":"Module:"}',Text2:'{"text":"Enchants"}',Text4:'{"text":"V0.1"}'} replace

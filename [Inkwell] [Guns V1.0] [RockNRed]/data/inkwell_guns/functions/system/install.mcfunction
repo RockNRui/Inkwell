@@ -77,4 +77,4 @@ scoreboard objectives add InkW_Guns_PP dummy
 #Module block
 setblock 3151411 15 3151409 minecraft:iron_block
 #Module sign
-setblock 3151411 17 3151409 birch_wall_sign[facing=south]{Text1:'{"text":"Module:"}',Text2:'{"text":"Guns"}',Text4:'{"text":"V1.0"}'} replace
+setblock 3151411 17 3151409 spruce_wall_sign[facing=south]{Text1:'{"text":"Module:"}',Text2:'{"text":"Guns"}',Text4:'{"text":"V1.0"}'} replace
