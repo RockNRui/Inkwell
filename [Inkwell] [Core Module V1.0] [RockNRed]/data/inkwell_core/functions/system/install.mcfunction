@@ -21,8 +21,8 @@ scoreboard objectives add InkW_PlayerDmg dummy
 scoreboard objectives add InkW_PlayerDmgT dummy
 #Aide normal player damage death
 scoreboard objectives add InkW_Dmg_Death minecraft.killed_by:minecraft.iron_golem
-#Aide player missing health
-scoreboard objectives add InkW_PMissHealth dummy
+#Aide target missing health
+scoreboard objectives add InkW_TMissHealth dummy
 #Aide max health fix timer
 scoreboard objectives add InkW_TrueDamageT dummy
 #Aide player heal

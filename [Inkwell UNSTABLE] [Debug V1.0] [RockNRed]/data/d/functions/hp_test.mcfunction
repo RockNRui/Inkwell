@@ -1,4 +1,4 @@
-function inkwell_core:aide/get_player_status/get_health
+function inkwell_core:aide/get_target_status/get_health
 kill @s
 scoreboard players set @s InkW_Debug_HPTT 11
 function d:hp_test_loop
