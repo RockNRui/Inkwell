@@ -1,0 +1,6 @@
+Changelog for the current Beta of Inkwell:
+
+- Refactored custom damage.
+There is now an option on whether or not the custom damage system will spoof the damage tick via a wither tick.
+This can be toggled by performing this command alongside the damage call:
+"scoreboard players set $SimDamageTick InkW_Temp 1" 1 for spoofing, 0 for not. Default: 0.

@@ -1,0 +1,1 @@
+execute as @s at @s run function inkwell_core:aide/mob_damage/mob_damage

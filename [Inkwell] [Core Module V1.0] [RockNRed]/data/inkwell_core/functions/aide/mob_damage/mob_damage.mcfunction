@@ -1,9 +1,9 @@
-#Sim damage tick
-effect give @s minecraft:wither 1 1 true
+#Sim damage tick given on
+execute if score $SimDamageTick InkW_Temp matches 1 run effect give @s minecraft:wither 1 1 true
 #Get health, store in mob's temp score
 execute store result score @s InkW_Temp run data get entity @s Health
-#Minus 1 from damage (to account for wither)
-scoreboard players operation @s InkW_MobDmg -= $InkW_Constant_1 InkW_Temp
+#Minus 1 from damage, given on (to account for wither)
+execute if score $SimDamageTick InkW_Temp matches 1 run scoreboard players operation @s InkW_MobDmg -= $InkW_Constant_1 InkW_Temp
 #Remove damage from health
 scoreboard players operation @s InkW_Temp -= @s InkW_MobDmg
 #Zero out damage score
